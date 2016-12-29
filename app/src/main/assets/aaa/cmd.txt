@@ -1,0 +1,19 @@
+#########################处理图像需要的参数
+wname_buf = dualfilt1	#小波名称
+dtcwt_n = 7		#小波分解层数
+dtcwt_level = 4		#分界层数
+a_weight = 1.0		#近似权重
+l_weight = 1.0		#低层权重
+h_weight = 1.0		#高层权重
+dtcwt_weight[0] = 1.0	#双树复小波六个方向的系数权重
+dtcwt_weight[1] = 1.0
+dtcwt_weight[2] = 1.0
+dtcwt_weight[3] = 1.0
+dtcwt_weight[4] = 1.0
+dtcwt_weight[5] = 1.0
+dtcwt_flag = 1		#是否采用虚数分解
+
+#########################与拍照相关的参数
+captureNum = 1		#连拍张数
+infiniteLoop = 0	#是否无限连拍
+periodTime = 0.0	#连拍间隔时间(s)
